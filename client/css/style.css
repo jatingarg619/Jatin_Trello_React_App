@@ -1,0 +1,169 @@
+/*#lists
+*/
+@import "./header.css";
+
+
+.content{
+	overflow-x: scroll;
+    position: absolute;
+    top: 47px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+body{
+   background-color:#0079bf; 
+   overflow: hidden;
+}
+
+.row-flex {
+	display: flex;
+}
+.list-container {
+ 	margin-top: 25px;
+ 	margin-left:20px;
+ 	width: 250px;
+
+}
+
+.modal-body {
+	height: 300px;
+	overflow-y: scroll;
+}
+.container {
+	background-color: lightgrey;
+	border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 4px 10px darkslategrey;
+}
+
+.list_heading{
+	font-size: 14px;
+	font-weight: bold
+
+}
+
+.card-container{
+	background-color: white;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+.card-content {
+	width: 100%;
+	word-break: break-all;
+	position: relative;
+	display: inline-block;
+	padding-right: 20px;
+	padding: 10px;
+}
+
+.card-content:hover{
+padding-right: 30px
+}
+
+.card-content:hover .edit {
+	display: block;
+}
+
+.card-content:hover .delete {
+	display: block;
+}
+
+.edit {
+	padding-top: 0px;	
+	padding-right: 22px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+}
+
+.delete{
+	padding-top: 0px;	
+	padding-right: 5px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+
+}
+.add-new{
+	margin-top: 10px
+}
+
+
+
+
+.comment-container{
+	background-color: white;
+	margin-top: 10px
+}
+.comment-content {
+	width: 100%;
+	word-break: break-all;
+	position: relative;
+	display: inline-block;
+	padding-right: 20px
+}
+
+.comment-content:hover{
+padding-right: 30px
+}
+
+.comment-content:hover .edit {
+	display: block;
+}
+
+.comment-content:hover .delete {
+	display: block;
+}
+
+
+
+
+
+.task-container{
+	background-color: lightgrey;
+	margin-top: 10px
+}
+.task-content {
+	width: 100%;
+	word-break: break-all;
+	position: relative;
+	display: inline-block;
+	padding-right: 20px
+}
+
+.task-content:hover{
+padding-right: 30px
+}
+
+.task-content:hover .edit {
+	display: block;
+}
+
+.task-content:hover .delete {
+	display: block;
+}
+
+
+.modal-container{
+	margin:auto;
+	width:90%;
+	}
+
+.card-form {
+	padding-top: 10px;
+}
+/*#cards
+*/
